@@ -1,0 +1,198 @@
+body{
+	font-family: 'Source Sans Pro', sans-serif;
+	margin: 0;
+}
+/* The wrapper wraps around everything except for the body. */
+#wapper{
+	background-color: #eeeeee;
+}
+header{
+	background-color: blueviolet;
+	padding: 20px;
+}
+.logo{
+margin: 0 auto;
+display:block;
+}
+main{
+	max-width: 1000px;
+	margin: 20px auto;
+}
+nav ul{
+	text-align: right;
+	padding-top: 20px;
+	padding-right:20px;
+}
+h1{
+	color: white;
+	text-align: center;
+}
+nav{
+	background-color: pink;
+	padding: 5px;
+}
+nav ul{
+	list-style-type: none;
+	text-align: center;
+}
+nav li{
+	display: inline;
+}
+nav a{
+	text-decoration: none;
+	padding-right: 10px;
+}
+nav a:link{
+	color: purple;
+}
+nav a:hover{
+	color: orange;
+}
+nav a:active{
+	color: green;
+}
+footer{
+	text-align: center;
+	border-top: 1px solid gray;
+	padding: 10px;
+}
+a:link{
+color: purple;
+}
+a:visited{
+color: purple;
+}
+a:hover{
+color: blue;
+}
+a:active{
+color: black;
+}
+
+table{
+  border-collapse: collapse;
+}
+td, th{
+  border: 1px solid #947EF0;
+  padding: 5px;
+}
+th{
+  background-color: #947EF0;
+  color: white;
+}
+/*CSS without a media query--applies to all sizes unless overridden*/
+h1{
+		font-size: 4em;
+ }
+label{
+	float:left;
+	 width:8em;
+	 padding-right:1em;
+	}
+input,textarea{
+	margin-bottom:1em;
+	display:block;
+}
+input[type=submit]{
+	display:block;
+	background-color:lightgray;
+}
+.video-container {
+    overflow: hidden;
+    position: relative;
+    width:100%;
+}
+
+.video-container::after {
+    padding-top: 56.25%;
+    display: block;
+    content: '';
+}
+
+.video-container iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+.home-image{
+	max-width: 50%;
+	height:auto;
+	float: right;
+}
+/*     CSS for Tablets     */
+@media only screen and (max-width: 1024px){
+	h1{
+		font-size: 2em;
+	}
+
+}
+/*     CSS for Smartphones     */
+@media only screen and (max-width: 768px){
+	h1{
+		font-size: 1.5em;
+	}
+	.hero-image{
+        display:none;
+    }
+
+}
+.fa{
+	color:#4375EA;
+	font-size: 2em;
+}
+footer{
+	background-color:#B295BF;
+	}
+.gallery .preview{
+    width:100%
+    height:auto;
+}
+.gallery .gallery-thumbnails img {
+    width:100px;
+    height:75px;
+    margin: 3px 10px 10px 0;
+}
+.gallery .gallery-thumbnails img:hover {
+    opacity: .8;
+    cursor: pointer;
+}
+.gallery .preview img#preview {
+    padding: 1px;
+    max-width: 100%;
+    height: auto;
+    margin: 0 auto !important;
+    display: block !important;
+}
+.big3{
+	margin-top: 75px;
+	margin-bottom: 75px;
+	text-align: center;
+}
+.big3 .fa{
+	font-size: 4em;
+	padding: 10px;
+}
+.big3 button{
+	padding: 10px;
+	background-color: pink;
+}
+.fafooter .fa{
+	padding: 5px;
+}
+.portfolio-image{
+	height: auto;
+}
+
+
+
+
+
+
+
+
+
+
+
+
